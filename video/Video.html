@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GALERY SEPATU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Custom styles for this template -->
+    <link href="../carousel/carousel.css"rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="../carousel/index.html">GALERY SEPATU.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../carousel/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../galery/galery.html">Galery</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link " href="Video.html">Video</a>
+			  </li>
+            
+          </ul>
+</body>
+        </div>
+      </nav>
+    </header>
+	
+
+    
+      </div><!-- /.container -->
+<body>
+ 
+<div id="container">
+<p></p>
+<p></p>
+<div id="single" style="width:580px;"> 
+<h2>VIDEO</h2>
+<video width="560" controls="controls"> 
+<source src="video 1.mp4"
+type="video/mp4" /> 
+</video>
+</div>
+</body>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2019-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+ 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../assets/js/vendor/popper.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../assets/js/vendor/holder.min.js"></script>
+	<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="carousel.css">
+  <script src="../jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui-1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+	</head>
+	<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Dialog - Animation</title>
+   <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="carousel.css">
+  <script src="../jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui-1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } );
+  </script>
+</head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Sortable</title>
+  <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="carousel.css">
+  <script src="../jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui-1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" )
+      .accordion({
+        header: "> div > h3"
+      })
+      .sortable({
+        axis: "y",
+        handle: "h3",
+        stop: function( event, ui ) {
+          // IE doesn't register the blur when sorting
+          // so trigger focusout handlers to remove .ui-state-focus
+          ui.item.children( "h3" ).triggerHandler( "focusout" );
+ 
+          // Refresh accordion to handle new order
+          $( this ).accordion( "refresh" );
+        }
+      });
+  } );
+  </script>
+</head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete - Default functionality</title>
+   <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="carousel.css">
+  <script src="../jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui-1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var availableTags = [
+      "Adidas",
+      "Nike",
+	  "New Balance",
+	  "Rebook",
+	  "Puma",
+	  "Converse",
+	  "Diadora",
+	  "Vans",
+	  "YEEZY",
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
+</head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Position - Image Cycler</title>
+   <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="carousel.css">
+  <style>
+  body {
+    margin: 0;
+  }
+  #container {
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+  }
+ 
+  img {
+    position: absolute;
+  }
+  </style>
+  <script src="../jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+  <script src="../jquery-ui-1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    function left( element, using ) {
+      element.position({
+        my: "right middle",
+        at: "left+25 middle",
+        of: "#container",
+        collision: "none",
+        using: using
+      });
+    }
+    function right( element, using ) {
+      element.position({
+        my: "left middle",
+        at: "right-25 middle",
+        of: "#container",
+        collision: "none",
+        using: using
+      });
+    }
+    function center( element, using ) {
+      element.position({
+        my: "center middle",
+        at: "center middle",
+        of: "#container",
+        using: using
+      });
+    }
+ 
+    left( $( "img:eq(0)" ) );
+    center( $( "img:eq(1)" ) );
+    right( $( "img:eq(2)" ) );
+ 
+    function animate( to ) {
+      $( this ).stop( true, false ).animate( to );
+    }
+    function next( event ) {
+      event.preventDefault();
+      center( $( "img:eq(2)" ), animate );
+      left( $( "img:eq(1)" ), animate );
+      right( $( "img:eq(0)" ).appendTo( "#container" ) );
+    }
+    function previous( event ) {
+      event.preventDefault();
+      center( $( "img:eq(0)" ), animate );
+      right( $( "img:eq(1)" ), animate );
+      left( $( "img:eq(2)" ).prependTo( "#container" ) );
+    }
+    $( "#previous" ).on( "click", previous );
+    $( "#next" ).on( "click", next );
+ 
+    $( "img" ).on( "click", function( event ) {
+      $( "img" ).index( this ) === 0 ? previous( event ) : next( event );
+    });
+ 
+    $( window ).on( "resize", function() {
+      left( $( "img:eq(0)" ), animate );
+      center( $( "img:eq(1)" ), animate );
+      right( $( "img:eq(2)" ), animate );
+    });
+  } );
+  </script>
+</head>
+
+  </body>
+</html>
